@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Numi App</title>
+  </head>
+  <body>
+    <h1 id="status"></h1>
+    <form onsubmit="App.handleForm(event)">
+      Set Address
+      <input type="text" required />
+      Set Favourite
+      <input type="number" required />
+      <button type="submit">Submit</button>
+    </form>
+    <h1>Get Value</h1>
+    <form onsubmit="App.getValue(event)">
+      Get Address
+      <input type="text" required />
+      <button type="submit">Submit</button>
+    </form>
+    <h2 id="valueTag">Value will be here</h2>
+    <script src="index.js"></script>
+  </body>
+</html>
